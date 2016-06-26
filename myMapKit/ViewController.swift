@@ -33,7 +33,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     @IBAction func createAnno(sender: AnyObject) {
         let a = MyAnotation(c:myMapView.centerCoordinate, t: "Center", st: "The map center")
-        myMapView(myMapView, viewForAnnotation: a)
+        mapView(myMapView, viewForAnnotation: a)
+        myMapView.addAnnotation(a)
+        set.addObject(a)
+        
         
     }
     
