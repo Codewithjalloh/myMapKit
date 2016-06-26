@@ -13,6 +13,7 @@
 		5832D7451D20673F0020AE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5832D7441D20673F0020AE35 /* Assets.xcassets */; };
 		5832D7481D20673F0020AE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5832D7461D20673F0020AE35 /* LaunchScreen.storyboard */; };
 		5832D7501D2067710020AE35 /* MyAnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832D74F1D2067710020AE35 /* MyAnotation.swift */; };
+		5832D7521D206D670020AE35 /* blackpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5832D7511D206D670020AE35 /* blackpin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5832D7471D20673F0020AE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5832D7491D20673F0020AE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5832D74F1D2067710020AE35 /* MyAnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnotation.swift; sourceTree = "<group>"; };
+		5832D7511D206D670020AE35 /* blackpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackpin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5832D73C1D20673F0020AE35 /* myMapKit */ = {
 			isa = PBXGroup;
 			children = (
+				5832D7511D206D670020AE35 /* blackpin.png */,
 				5832D73D1D20673F0020AE35 /* AppDelegate.swift */,
 				5832D73F1D20673F0020AE35 /* ViewController.swift */,
 				5832D74F1D2067710020AE35 /* MyAnotation.swift */,
@@ -128,6 +131,7 @@
 				5832D7481D20673F0020AE35 /* LaunchScreen.storyboard in Resources */,
 				5832D7451D20673F0020AE35 /* Assets.xcassets in Resources */,
 				5832D7431D20673F0020AE35 /* Main.storyboard in Resources */,
+				5832D7521D206D670020AE35 /* blackpin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

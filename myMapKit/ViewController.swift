@@ -32,14 +32,31 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     @IBAction func createAnno(sender: AnyObject) {
+        let a = MyAnotation(c:myMapView.centerCoordinate, t: "Center", st: "The map center")
+        myMapView(myMapView, viewForAnnotation: a)
         
     }
     
     @IBAction func deleteAnno(sender: AnyObject) {
+        let annoToRemove = self.myMapView.annotations
+        self.myMapView.removeAnnotations(annoToRemove)
+        
+    }
+    
+    @IBAction func coordinates(sender: AnyObject) {
+        lat.text = "\(myMapView.centerCoordinate.latitude)"
+        long.text = "\(myMapView.centerCoordinate.longitude)"
         
     }
     
     
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        let pinView:MKPinAnnotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "custom")
+        pinView.image = UIImage(named: "blackpin")
+        return pinView
+        
+    }
     
     
     
